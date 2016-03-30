@@ -101,7 +101,7 @@ print(quotient)'''
 
 #Problem 6
 
-def prime_number(number):
+'''def prime_number(number):
 
 	numberRange = range(2, number)
 	
@@ -116,7 +116,7 @@ number = int(raw_input("What is your number? "))
 
 result = prime_number(number)
 
-print(result)
+print(result)'''
 
 
 
