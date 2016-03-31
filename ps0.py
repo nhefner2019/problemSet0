@@ -14,7 +14,7 @@ def even_odd(number):
 
 def number_digits(number):
 	
-	digits = len(number)
+	digits = len(str(number))
 	
 	return digits
 
@@ -23,6 +23,7 @@ def number_digits(number):
 
 def sum_digits(number):
 	sum = 0
+	number = str(number)
 	for digit in number:
 		sum += int(digit)
 	return sum
@@ -67,15 +68,37 @@ def prime_number(number):
 	
 	for integer in numberRange:
 		while number % integer == 0:
-			return True
+			return False
 			
+		return True
+		
+#Problem 7
+
+def perfect_number(number):
+
+	numberRange = range(1, number)
+	
+	sum = 0
+	
+	for integer in numberRange:
+		if number % integer == 0:
+			sum += integer
+			
+	if sum == number:
+		return True
+	else:
+		return False
+			
+#Problem 8
+
+def sum_divisible(number):
+	
+	sum = sum_digits(number)
+	
+	if number % sum == 0:
+		return True
+	else:
 		return False
 
 
-	
 
-
-
-		
-	
-		
