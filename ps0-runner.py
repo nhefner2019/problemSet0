@@ -18,3 +18,8 @@ print("Your number is {}. The sum of the digits in {} is {}.\n".format(1125,1125
 print("Your number is {}. The sum of all the integers less than {} are {}.".format(3,3,ps0.sum_less_ints(3)))
 print("Your number is {}. The sum of all the integers less than {} are {}.".format(6,6,ps0.sum_less_ints(6)))
 print("Your number is {}. The sum of all the integers less than {} are {}.\n".format(10,10,ps0.sum_less_ints(10)))
+
+#Test cases for Problem 4
+print("Your number is {}. The factorial of {} is {}, or {}!.".format(2,2,ps0.number_factorial(2),2))
+print("Your number is {}. The factorial of {} is {}, or {}!.".format(4,4,ps0.number_factorial(4),4))
+print("Your number is {}. The factorial of {} is {}, or {}!.".format(5,5,ps0.number_factorial(5),5))
