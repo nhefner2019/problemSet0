@@ -13,3 +13,8 @@ print("Your number is {}. There are {} digits in {}.\n".format(4875,ps0.number_d
 print("Your number is {}. The sum of the digits in {} is {}.".format(23,23,ps0.sum_digits(23)))
 print("Your number is {}. The sum of the digits in {} is {}.".format(458,458,ps0.sum_digits(458)))
 print("Your number is {}. The sum of the digits in {} is {}.\n".format(1125,1125,ps0.sum_digits(1125)))
+
+#Test cases for Problem 3
+print("Your number is {}. The sum of all the integers less than {} are {}.".format(3,3,ps0.sum_less_ints(3)))
+print("Your number is {}. The sum of all the integers less than {} are {}.".format(6,6,ps0.sum_less_ints(6)))
+print("Your number is {}. The sum of all the integers less than {} are {}.\n".format(10,10,ps0.sum_less_ints(10)))
