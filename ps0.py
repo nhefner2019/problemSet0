@@ -1,8 +1,9 @@
 from math import factorial
 
 #Problem 0
-#determines if a number is even or odd
+
 def even_odd(number):
+	'''determines if a number is even or odd'''
 	
 	if number % 2 == 0:
 		return True
@@ -11,8 +12,9 @@ def even_odd(number):
 
 
 #Problem 1
-#determines how many digits a number has
+
 def number_digits(number):
+	'''determines how many digits a number has'''
 	
 	digits = len(str(number))
 	
@@ -20,8 +22,10 @@ def number_digits(number):
 
 
 #Problem 2
-#determines the sum of a number's digits
+
 def sum_digits(number):
+	'''determines the sum of a number's digits'''
+	
 	sum = 0
 	number = str(number)
 	for digit in number:
@@ -30,8 +34,10 @@ def sum_digits(number):
 		
 
 #Problem 3
-#determines the sum of all integers less than the number
+
 def sum_less_ints(number):
+	'''determines the sum of all integers less than the number'''
+	
 	sum = 0
 	ints = range(number)
 	
@@ -42,8 +48,9 @@ def sum_less_ints(number):
 	
 
 #Problem 4
-#determines the factorial of a number
+
 def number_factorial(number):
+	'''determines the factorial of a number'''
 	
 	factor = factorial(number)
 	
@@ -52,18 +59,19 @@ def number_factorial(number):
 
 
 #Problem 5
-#determines if one number is a factor of another
-def possible_factors(dividend, divisor):
 
+def possible_factors(dividend, divisor):
+	'''determines if one number is a factor of another'''
 	if dividend % divisor == 0:
 		return True
 	else:
 		return False
 		
 #Problem 6
-#determines if a number is prime
-def prime_number(number):
 
+def prime_number(number):
+	'''determines if a number is prime'''
+	
 	numberRange = range(2, number)
 	
 	for integer in numberRange:
@@ -73,9 +81,10 @@ def prime_number(number):
 		return True
 		
 #Problem 7
-#determines if a number is perfect
-def perfect_number(number):
 
+def perfect_number(number):
+	'''determines if a number is perfect'''
+	
 	numberRange = range(1, number)
 	
 	sum = 0
@@ -90,8 +99,9 @@ def perfect_number(number):
 		return False
 			
 #Problem 8
-#determines if the sum of a number's digits is a factor of the original number
+
 def sum_divisible(number):
+	'''determines if the sum of a number's digits is a factor of the original number'''
 	
 	sum = sum_digits(number)
 	
