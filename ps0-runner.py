@@ -5,7 +5,7 @@ print("The number {} is even: {}.".format(4,ps0.even_odd(4)))
 print("The number {} is even: {}. \n".format(5,ps0.even_odd(5)))
 
 #Test cases for Problem 1
-print("Your number is {}. There is {} digits in {}.".format(1,ps0.number_digits(1),1))
+print("Your number is {}. There is {} digit in {}.".format(1,ps0.number_digits(1),1))
 print("Your number is {}. There are {} digits in {}.".format(55,ps0.number_digits(55),55))
 print("Your number is {}. There are {} digits in {}.\n".format(4875,ps0.number_digits(4875),4875))
 
@@ -27,4 +27,8 @@ print("Your number is {}. The factorial of {} is {}, or {}!.\n".format(5,5,ps0.n
 #Test cases for Problem 5
 print("Your dividend is {}. Your divisor is {}. {} is a factor of {}: {}.".format(8,2,2,8,ps0.possible_factors(8,2))) 
 print("Your dividend is {}. Your divisor is {}. {} is a factor of {}: {}.\n".format(7,2,2,7,ps0.possible_factors(7,2))) 
+
+#Test cases for Problem 6
+print("Your number is {}. The number {} is a prime number: {}.".format(5,5,ps0.prime_number(5)))
+print("Your number is {}. The number {} is a prime number: {}.".format(12,12,ps0.prime_number(12)))
 
