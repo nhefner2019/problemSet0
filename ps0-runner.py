@@ -30,5 +30,12 @@ print("Your dividend is {}. Your divisor is {}. {} is a factor of {}: {}.\n".for
 
 #Test cases for Problem 6
 print("Your number is {}. The number {} is a prime number: {}.".format(5,5,ps0.prime_number(5)))
-print("Your number is {}. The number {} is a prime number: {}.".format(12,12,ps0.prime_number(12)))
+print("Your number is {}. The number {} is a prime number: {}.\n".format(12,12,ps0.prime_number(12)))
 
+#Test cases for Problem 7
+print("Your number is {}. The number {} is perfect: {}.".format(6,6,ps0.perfect_number(6)))
+print("Your number is {}. The number {} is perfect: {}.\n".format(4,4,ps0.perfect_number(4)))
+
+#Test cases for Problem 8
+print("Your number is {}. The number {} is divisible by the sum of its digits: {}.".format(18,18,ps0.sum_divisible(18)))
+print("Your number is {}. The number {} is divisible by the sum of its digits: {}.".format(23,23,ps0.sum_divisible(23)))
