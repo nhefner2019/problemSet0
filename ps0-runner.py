@@ -22,4 +22,9 @@ print("Your number is {}. The sum of all the integers less than {} are {}.\n".fo
 #Test cases for Problem 4
 print("Your number is {}. The factorial of {} is {}, or {}!.".format(2,2,ps0.number_factorial(2),2))
 print("Your number is {}. The factorial of {} is {}, or {}!.".format(4,4,ps0.number_factorial(4),4))
-print("Your number is {}. The factorial of {} is {}, or {}!.".format(5,5,ps0.number_factorial(5),5))
+print("Your number is {}. The factorial of {} is {}, or {}!.\n".format(5,5,ps0.number_factorial(5),5))
+
+#Test cases for Problem 5
+print("Your dividend is {}. Your divisor is {}. {} is a factor of {}: {}.".format(8,2,2,8,ps0.possible_factors(8,2))) 
+print("Your dividend is {}. Your divisor is {}. {} is a factor of {}: {}.\n".format(7,2,2,7,ps0.possible_factors(7,2))) 
+
